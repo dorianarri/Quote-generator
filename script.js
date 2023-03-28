@@ -12,15 +12,3 @@ function generateQuote() {
     quoteElement.innerHTML = data[Math.floor(Math.random() * 51)].q;
   })
 }
-
-// const api_url ="https://zenquotes.io/api/quotes/";
-
-// async function getapi(url)
-// {
-//   const response = await fetch(url);
-//   var data = await response.json();
-//   // console.log(data)
-//   quoteElement.innerHTML = data[Math.floor(Math.random() * 51)].q;
-// }
-
-// getapi(api_url);
